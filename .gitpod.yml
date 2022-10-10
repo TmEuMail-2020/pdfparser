@@ -6,4 +6,4 @@ tasks:
   - init: |
       composer install
       # to add pdfimages to extract qr code
-      sudo apt-get install poppler-utils
+      sudo apt-get install -y poppler-utils
